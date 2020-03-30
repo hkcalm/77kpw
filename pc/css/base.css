@@ -1,0 +1,44 @@
+/* 199tv整站主体控制 一九九影视 QQ：787850323 */
+/* reset */
+div.imgsbox dd.sjj{color:#999;line-height:20px;display:inline}
+.sbanner .topLine1{position:absolute;top:46px}
+.swrap1{width:1002px;margin:0 auto;clear:both}
+.swrap1 h2{width:108px;height:111px;float:left;overflow:hidden;text-indent:-9999em;background:url(../images/special/title.png) no-repeat}
+.swrap1 .slist{width:1002px;float:right;margin:3px 0 15px;display:inline}
+.swrap1 .slist li{width:307px;height:222px;display:block;float:left;position:relative;z-index:0;margin:25px 40px 10px 10px}
+.swrap1 .slist li.last{margin-right:0}.swrap1 .slist li.over{z-index:1}
+.swrap1 .slist li b{background:#000;width:307px;height:190px;display:inline;position:absolute;z-index:0;right:0;bottom:1px;filter:alpha(opacity=5);opacity:0.05}
+.swrap1 .slist li.over b{z-index:5;filter:alpha(opacity=15);opacity:0.15;display:block}
+.swrap1 .slist .specialBox{float:left;width:289px;height:200px;padding:8px;display:inline;background:#fff;border:1px solid #ddd;position:absolute;z-index:1;overflow:hidden}
+.swrap1 .slist li.over .specialBox{background:url(../images/special/s1.gif) #111;border:1px solid #000;z-index:6}
+.swrap1 .slist li .specialBox a.imglink{width:289px;height:146px;overflow:hidden;position:relative;background:#fff;display:block}
+.swrap1 .slist li .specialBox a.imglink img{width:289px;height:146px}
+.swrap1 .sText{width:289px;line-height:22px;overflow:hidden;clear:both;float:left}
+.swrap1 .sText dd{width:289px;color:#999;float:left;overflow:hidden}
+.swrap1 .sText dd.sjj{display:none;line-height:20px;margin-top:5px}
+.swrap1 .sText dd strong{font-weight:normal}
+.swrap1 .sText dd.sT{margin:8px 0 0px}
+.swrap1 .slist li .sText dd.sT h3{font-weight:normal;display:inline-block;float:left;font-size:12px}
+.swrap1 .slist li .sText dd i{color:#ccc;padding:0 8px}
+.swrap1 .slist li .sText dd em{font-weight:normal;color:#f36;padding-left:5px}
+.swrap1 .slist li .sText dd .smore{color:#02A1D9;padding-left:2px}
+.swrap1 .slist li.over .sText dd.sT h3 a{color:#fff}
+.swrap1 .slist li.over .sText dd{color:#888}
+.swrap1 .slist li.over .sText dd.sjj{color:#686868}
+.swrap1 .slist li.over .sText dd i{color:#484848}
+
+.pages1{padding:30px 10px 5px 10px;*padding-top:16px;text-align:center;clear:both}
+.pages1 span{display:inline-block;margin:0 1px;background-color:#eee}
+.pages1 span.lines,.pages1 span.pagenow{padding:0px 12px;height:30px;line-height:28px}
+.pages1 span a,.pages1 span b{display:inline-block;padding:0px 12px;height:30px;line-height:28px;font-weight:normal}
+.pages1 span a:hover,.pages1 span.pagenow{background-color:#03a2dc;color:#fff;text-decoration:none}
+.pages1 .nexthave b,.pages1 .nextno b,.pages1 .nexthave a,.pages1 .nextno a{width:56px;padding:0px;height:30px;line-height:28px;padding-right:10px;background:url(../images/page.gif) no-repeat 51px -118px #eee}
+.pages1 .prevhave b,.pages1 .prevno b,.pages1 .prevhave a,.pages1 .prevno a{width:56px;padding:0px;height:30px;line-height:28px;padding-left:10px;background:url(../images/page.gif) no-repeat 10px -43px #eee}
+.pages1 .nexthave b,.pages1 .nextno b{background-position:51px -143px;color:#aaa;background-color:#f6f6f6}
+.pages1 .prevhave b,.pages1 .prevno b{background-position:10px -68px;color:#aaa;background-color:#f6f6f6}
+.pages1 .nexthave a:hover{background-position:51px -168px}.pages1 .prevhave a:hover{background-position:10px -93px}
+
+#footer{clear:both;margin:20px 0 0 0;text-align:center;line-height:22px;background:#f3f3f3;overflow:hidden;border-top:1px solid #ddd;text-shadow:0 1px 0 rgba(255,255,255,0.6)}
+#footer .fBox{border-top:1px solid #fff;padding:20px 0;color:#666}
+#footer a{color:#666}
+#footer .lnk a{text-decoration:underline}

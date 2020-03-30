@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* topic */
+.input:after{clear:both;content:"";display:block;height:0;visibility:hidden}
+.imgpic,.imgpic1{background:url(../images/load.gif) no-repeat center center #e9e9e9}
+
+.topLine{width:100%;height:8px;background:url(../images/topline.png) repeat-x;clear:both}
+
+.topBar span.his,.topBar span.login{padding:0 15px 0 0;z-index:20;position:absolute;right:180px;top:0}
+.topBar span.login{right:262px}
+.topBar span.login a{color:#999}
+.topBar span.his a{color:#999;padding-right:3px}
+.topBar span.his a:hover{text-decoration:none}
+.topBar span.his a.headerMnuLink{padding-left:22px;line-height:46px;display:block}
+.topBar span em{padding:0 3px}
+.topBar span.his a:hover .headerMnuLink{color:#585858}
+.topBar #mnuArtStyles{width:340px;margin-left:0;right:18px;top:46px;overflow:visible;display:none}
+.topBar .popup1{border:1px solid #d2d2d2;right:0}
+#history a{color:#585858}
+#history .title{width:185px}
+.topBar .popup1 .sub{height:45px;line-height:32px;position:absolute;right:-1px;top:-33px;width:86px;border-bottom:none;z-index:19;text-indent:27px;cursor:pointer;background:url(../images/img.gif) no-repeat 2px -409px}
+.topBar span.his b{width:11px;height:11px;background:url(../images/img.gif) no-repeat -20px -284px;margin-top:0 9;position:absolute;top:18px;left:5px}
+.topBar .popup1 .sub b{background-position:-35px -284px;margin-top:0 9;position:absolute;top:4px;left:21px}
+.popup1{position:absolute;padding:3px;font-family:Verdana,Arial,Helvetica,sans-serif;background:#fff;border:1px solid #9EBEDE;zoom:1}
+#mnuArtStyles{width:197px;display:inline}
+.history h5{width:256px;font-weight:400;display:inline-block;float:left}
+.history h5 a.title{font-weight:400}
+.topBar #mnuArtStyles .history{font-size:12px;line-height:30px}
+.topBar #mnuArtStyles .history dt{color:#CCC;text-align:right;padding-right:5px;background:#fff}
+.topBar #mnuArtStyles .history a{font-size:12px;color:#666;display:inline-block;margin:0;padding:0 6px}
+.topBar #mnuArtStyles .history #playhistory li{text-align:left;width:340px;float:left;display:block;line-height:30px;padding:0;height:30px;background:0 0;position:relative}
+.topBar #mnuArtStyles .history #playhistory li.even{background:#fff}
+.topBar #mnuArtStyles .history #playhistory li.odd{background:#fdfdfd}
+.topBar #mnuArtStyles .history #playhistory li:hover{background:#e5faff}
+.topBar #mnuArtStyles .history #playhistory li.no-his{text-align:center;border:none;padding-top:100px;height:auto;color:#aaa;background:url(../images/movimg.gif) no-repeat center 20px}
+.topBar #mnuArtStyles .history #playhistory li.no-his:hover{background:url(../images/movimg.gif) no-repeat center 20px}
+.topBar #mnuArtStyles .history #playhistory li h5 a{color:#666}
+.topBar #mnuArtStyles .history dt a{color:#999}
+.topBar #mnuArtStyles .history #playhistory li span.del{float:none;display:inline-block;padding:10px 0 0 0;position:absolute;top:0;right:0}
+.topBar #mnuArtStyles .history #playhistory li span.del a{display:block;width:11px;height:11px;overflow:hidden;text-indent:-999px;cursor:pointer;background:url(../images/closeA.gif) 0 0 no-repeat;padding-right:4px}
+.topBar #mnuArtStyles .history #playhistory li span.del a:hover{background:url(../images/closeB.gif) 0 0 no-repeat}
+
+.boxList{width:833px;padding:10px 0 30px;margin-left:0;zoom:1;background:#fff;display:block;float:left}
+.boxList.ls,.boxList.s{width:726px;padding:10px 0 30px}
+.boxList.jsonPT.ls li{margin-left:45px;width:640px}
+.boxList.jsonPP.ls li{margin-left:45px}
+.boxList.sno{width:726px;padding-bottom:10px}
+.boxList.sno a{color:#f60}
+.boxList .imgBox{width:198px;height:239px;position:relative;z-index:0;float:left}
+.boxList li a.pic{width:170px;height:237px;padding:1px;background:#FFF;position:absolute;top:0;left:0;z-index:1}
+.boxList li a.pic img.imgpic{width:168px;height:235px;border:4px solid #fff;position:absolute;top:0;left:0;z-index:1}
+.boxList li a.pic img{width:168px;height:235px;overflow:hidden}
+.boxList span.kong{padding:15px 15px 0 15px;display:block}
+.boxList.jsonPP li{width:174px;float:left;margin:22px -5px 0 30px;display:inline;z-index:0;overflow:hidden}
+.boxList.jsonPP li.mov.movTop{z-index:999;overflow:visible}
+.boxList.jsonPP li a.pic{width:170px;height:237px;padding:1px;background:#FFF;position:absolute;top:0;left:0;z-index:1}
+.boxList.jsonPP li a.pic img.imgpic{width:168px;height:235px;overflow:hidden;display:inline;float:left}
+.boxList.jsonPP li a:hover.pic img.imgpic{border:4px solid #eaeaea}
+.boxList.jsonPP li .r1,.boxList.jsonPP li .r2{color:#AAA;height:15px;line-height:15px;margin-top:4px;overflow:hidden}
+.boxList.jsonPP li .r2 i{color:#f36;font-size:12px;font-family:Arial;font-weight:700}
+.boxList.jsonPP .r4,.boxList.jsonPP .r5,.boxList.jsonPP .r6,.boxList.jsonPP li .r3{display:none}
+.boxList.jsonPP li div.imgBg{width:168px;height:235px;border:1px solid #EAEAEA;padding:1px;position:absolute;top:2px;left:2px;margin-top:0;z-index:0}
+.boxList.jsonPP li div.ver,.boxList.jsonPP li div.verbg{height:30px;left:4px;position:absolute;bottom:0;width:168px;z-index:3}
+.boxList.jsonPP li div.verbg{background:url(../images/movBg2.png) repeat-x;opacity:.8;filter:Alpha(Opacity=80)}
+.boxList.jsonPP li div.ver{color:#fff;padding-right:5px;text-align:right;width:163px;font-size:12px;line-height:36px;font-family:"ËÎÌå","Arial Narrow";overflow:hidden}
+.boxList.jsonPP .minfo{width:171px;float:left;clear:both;padding-left:3px}
+.boxList.jsonPP .movTt{height:18px;line-height:18px;overflow:hidden;padding-right:18px;position:relative;margin-top:8px}
+.boxList.jsonPP .movTt span{display:none}
+.boxList.jsonPP a.movInfo{width:14px;height:14px;display:block;overflow:hidden;position:absolute;right:2px;top:4px;text-indent:-9999px;background:url(../images/img.gif) no-repeat -42px -370px}
+.boxList.jsonPP a:hover.movInfo{background-position:-64px -370px}
+
+.special{width:100%;margin:0 auto;clear:both;background:#fff}
+.stitle{background:#f6f6f6;border-bottom:1px solid #eee}
+.special .stitle h3{font-size:22px;font-family:"Î¢ÈíÑÅºÚ";font-weight:400;color:#666;display:inline-block;padding-left:20px}
+/* xiaogcc */
+.specialBox{ width:1000px; margin:0 auto; display:block; position:relative;}
+.specialText{ width:960px; padding:10px 20px 20px; background:#f6f6f6; margin-bottom:15px;}
+.stitle{ padding:10px 0;}
+.stitle h1,.stitle h3{ font-size:32px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:normal;color:#666; display:inline-block;}
+.stitle h3{ font-size:22px;}
+.stitle .tinfo{ color:#888; display:inline-block; padding-left:5px;}
+.stitle .tinfo em{ padding:0 3px; color:#ccc}
+.sinfoBox{background:url(../images/special/s2.gif) #e6e6e6; padding:15px;}
+.sinfoBox .sinfo{ background:#fff; line-height:24px; padding:10px 15px;}
+
+.specialVod{ width:1000px; padding:0 0 20px; background:#fff; margin-bottom:15px;}
+.specialVod .stitle{ padding:10px 20px 10px 18px;}
+.boxList.ztl{ background:#fff; width:auto; overflow:hidden; float:none; padding:0px;}
+.boxList.jsonPP.ztl li{ margin:15px 6px 3px 16px; width:176px; display:inline;}
+/* base */
+div.imgsbox dd.sjj{color:#999;line-height:20px;display:inline}
+.swrap1{width:1002px;margin:0 auto;clear:both}
+.swrap1 h2{width:108px;height:111px;float:left;overflow:hidden;text-indent:-9999em;background:url(../images/special/title.png) no-repeat}
+.swrap1 .slist{width:1002px;float:right;margin:3px 0 15px;display:inline}
+.swrap1 .slist li{width:307px;height:222px;display:block;float:left;position:relative;z-index:0;margin:25px 40px 10px 0px}
+.swrap1 .slist li.last{margin-right:0}.swrap1 .slist li.over{z-index:1}
+.swrap1 .slist li b{background:#000;width:307px;height:190px;display:inline;position:absolute;z-index:0;right:0;bottom:1px;filter:alpha(opacity=5);opacity:0.05}
+.swrap1 .slist li.over b{z-index:5;filter:alpha(opacity=15);opacity:0.15;display:block}
+.swrap1 .slist .specialBox{float:left;width:289px;height:200px;padding:8px;display:inline;background:#fff;border:1px solid #ddd;position:absolute;z-index:1;overflow:hidden}
+.swrap1 .slist li.over .specialBox{background:url(../images/special/s1.gif) #111;border:1px solid #000;z-index:6}
+.swrap1 .slist li .specialBox a.imglink{width:289px;height:146px;overflow:hidden;position:relative;background:#fff;display:block}
+.swrap1 .slist li .specialBox a.imglink img{width:289px;height:146px}
+.swrap1 .sText{width:289px;line-height:22px;overflow:hidden;clear:both;float:left}
+.swrap1 .sText dd{width:289px;color:#999;float:left;overflow:hidden}
+.swrap1 .sText dd.sjj{display:none;line-height:20px;margin-top:5px}
+.swrap1 .sText dd strong{font-weight:normal}
+.swrap1 .sText dd.sT{margin:8px 0 0px}
+.swrap1 .slist li .sText dd.sT h3{font-weight:normal;display:inline-block;float:left;font-size:12px}
+.swrap1 .slist li .sText dd i{color:#ccc;padding:0 8px}
+.swrap1 .slist li .sText dd em{font-weight:normal;color:#f36;padding-left:5px}
+.swrap1 .slist li .sText dd .smore{color:#02A1D9;padding-left:2px}
+.swrap1 .slist li.over .sText dd.sT h3 a{color:#fff}
+.swrap1 .slist li.over .sText dd{color:#888}
+.swrap1 .slist li.over .sText dd.sjj{color:#686868}
+.swrap1 .slist li.over .sText dd i{color:#484848}
+
+.pages1{padding:30px 10px 5px 10px;*padding-top:16px;text-align:center;clear:both}
+.pages1 span{display:inline-block;margin:0 1px;background-color:#eee}
+.pages1 span.lines,.pages1 span.pagenow{padding:0px 12px;height:30px;line-height:28px}
+.pages1 span a,.pages1 span b{display:inline-block;padding:0px 12px;height:30px;line-height:28px;font-weight:normal}
+.pages1 span a:hover,.pages1 span.pagenow{background-color:#03a2dc;color:#fff;text-decoration:none}
+.pages1 .nexthave b,.pages1 .nextno b,.pages1 .nexthave a,.pages1 .nextno a{width:56px;padding:0px;height:30px;line-height:28px;padding-right:10px;background:url(../images/page.gif) no-repeat 51px -118px #eee}
+.pages1 .prevhave b,.pages1 .prevno b,.pages1 .prevhave a,.pages1 .prevno a{width:56px;padding:0px;height:30px;line-height:28px;padding-left:10px;background:url(../images/page.gif) no-repeat 10px -43px #eee}
+.pages1 .nexthave b,.pages1 .nextno b{background-position:51px -143px;color:#aaa;background-color:#f6f6f6}
+.pages1 .prevhave b,.pages1 .prevno b{background-position:10px -68px;color:#aaa;background-color:#f6f6f6}
+.pages1 .nexthave a:hover{background-position:51px -168px}.pages1 .prevhave a:hover{background-position:10px -93px}
+
+.tinfo #share{position:relative;top:20px;left:10px}
