@@ -481,9 +481,9 @@ var MAC={
 	'Desktop':function(s){
 		location.href= SitePath + "inc/ajax.php?ac=desktop&name="+encodeURI(s)+"&url=" + encodeURI(location.href);
 	},
-	'Timming':function(){
-		var t=(new Image());t.src=SitePath+'inc/timming.php?t='+Math.random();
-	},
+	//'Timming':function(){
+		//var t=(new Image());t.src=SitePath+'inc/timming.php?t='+Math.random();
+	//},
 	'Hits':function(tab,id){
 		$.get(SitePath+"inc/ajax.php?ac=hits&tab="+tab+"&id="+id,function(r){$('#hits').html(r);});
 	},
