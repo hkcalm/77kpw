@@ -574,7 +574,7 @@ span.pagenow { color: white;background-color: #09a5e0;}
 .top-min p a{color:#377203}
 .top-min p a:hover{color:#377203}
 .detail-cols{width:918px;margin:19px;overflow:hidden}
-.detail-pic{width:160px;overflow:hidden;position:relative}
+.detail-pic{width:160px;overflow:hidden;position:relative;padding-top: 20px;}
 .detail-pic img{display:block;width:150px;height:210px;padding:4px;overflow:hidden;border:1px solid #ccc}
 .detail-pic .masker{width:237px;height:312px;overflow:hidden;position:absolute;top:0;left:0;background:url(../images/masker.png);background:0 0}
 .detail-title{width:400px;padding-left:15px}
