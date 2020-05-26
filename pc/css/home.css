@@ -22,7 +22,7 @@ body .fn-hide{display:none}
 .fn-left{float:left}
 .fn-right{float:right}
 /* base */
-body{color:#666;font-size:12px;font-family:Tahoma,Arial,Helvetica,sans-serif;background:#f5f5f5}
+body{color:#666;font-size:14px;font-family:Tahoma,Arial,Helvetica,sans-serif;background:#f5f5f5}
 a{text-decoration:none;color:#333}
 a.color{color:#d00000}
 a:hover{text-decoration:underline;color:#0483B0}
@@ -584,7 +584,7 @@ input.WP{margin:19px;margin-top:0;width:903px;height:22px;line-height:22px;borde
 .detail-union,.detail-union img{display:block;width:300px;overflow:hidden}
 .detail-info{width:400px;padding:0 13px 0 15px;overflow:hidden}
 .detail-info .info{width:400px;overflow:hidden}
-.detail-info .info dl{width:350px;line-height:24px;overflow:hidden;color:#666;font-size:12px;padding:3px 0}
+.detail-info .info dl{width:350px;line-height:24px;overflow:hidden;color:#666;font-size:14px;padding:3px 0}
 .detail-info .info dt{width:auto;float:left;color:#666;overflow:hidden}
 .detail-info .info dd{width:308px;float:left;color:#999;overflow:hidden}
 .detail-info .info dd a,.detail-info .info dd span{margin:0 5px 0 0;color:#333}
